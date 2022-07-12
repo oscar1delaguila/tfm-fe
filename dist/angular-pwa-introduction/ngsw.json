@@ -1,0 +1,114 @@
+{
+  "configVersion": 1,
+  "timestamp": 1657652138012,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.js",
+        "/manifest.webmanifest",
+        "/polyfills.js",
+        "/runtime.js",
+        "/styles.css",
+        "/vendor.js"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.2\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/css/animate.css",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/atleta.jpg",
+        "/assets/images/bambas.jpg",
+        "/assets/images/billetes.jpg",
+        "/assets/images/boxeo.jpg",
+        "/assets/images/grafica.jpg",
+        "/assets/images/monedas.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "images-api",
+      "patterns": [
+        "https:\\/\\/picsum\\.photos\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/css/animate.css": "2c6d1c4851293ff192e130af02787fbebca0c5a6",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/images/atleta.jpg": "a055f74694d0700b8589f3ab3675da7f5aca9092",
+    "/assets/images/bambas.jpg": "e86848387d3a6dfd5a1a24028a1219a1ba7e7fe8",
+    "/assets/images/billetes.jpg": "f5605c91b52a5d93631f1ae3687037a83612ad68",
+    "/assets/images/boxeo.jpg": "6f01e7d3db5f99f8dabd0e6056c5888e111769d7",
+    "/assets/images/grafica.jpg": "48267464395c323ccc469104d63d1c22587cb816",
+    "/assets/images/monedas.jpg": "4eea2302d3d0c16c379f07ec52936a8cbc9b26a3",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "2bf22fa94715d49d123a1e4c6f013214e8b43c5e",
+    "/main.js": "da6463bdcd467b113208e1c3dd5a5ec7ffdfa0c4",
+    "/manifest.webmanifest": "c36d4bdae200637031ca8a614b0138006854e6e4",
+    "/polyfills.js": "9f36857e0811e9bf17acca22e1408517ac01d4a3",
+    "/runtime.js": "a019514197317676ca1b693dddca00cae6e9d5b2",
+    "/styles.css": "01c25656f93447b496451188ec49112b7bba6bdf",
+    "/vendor.js": "b9d1e5a3b2bac49008ff5a93088a90ad9bc65099"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
