@@ -3,12 +3,12 @@
 {
     "/juguetes/*" : {
         "target":"http://ec2-52-47-148-224.eu-west-3.compute.amazonaws.com",
-        "secure":"true"
+        "secure":"false"
         
     },
     "/juguete/*" : {
         "target":"http://ec2-52-47-148-224.eu-west-3.compute.amazonaws.com",
-        "secure":"true"
+        "secure":"false"
         
     }
    

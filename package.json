@@ -6,7 +6,7 @@
     "start": "ng serve --proxy-config proxy.conf.json",
     "build": "ng build --configuration development",
     "watch": "ng build --watch --configuration development",
-    "netlify" : "ng deploy",
+    "netlify": "ng deploy",
     "test": "ng test"
   },
   "private": true,
@@ -21,6 +21,7 @@
     "@angular/router": "~13.3.0",
     "@angular/service-worker": "~13.3.0",
     "@netlify-builder/deploy": "^5.0.0",
+    "add": "^2.0.6",
     "animate.css": "^4.1.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
