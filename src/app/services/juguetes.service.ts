@@ -13,11 +13,11 @@ export class JuguetesService {
 
 
   getAllJuguetes(): Observable<Juguetes> {
-    return this.http.get<Juguetes>('/juguetes/');
+    return this.http.get<Juguetes>('http://ec2-52-47-148-224.eu-west-3.compute.amazonaws.com/juguetes/');
   }
 
   getJugueteById(id: string): Observable<Juguete> {
-    return this.http.get<Juguete>('/juguete/' + id );
+    return this.http.get<Juguete>('http://ec2-52-47-148-224.eu-west-3.compute.amazonaws.com/juguete/' + id );
   }
 
 }
